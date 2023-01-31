@@ -5,6 +5,7 @@ public class QuestionSeventeen {
         int n;
         System.out.print("Enter the value of n (n>0) : ");
         n=input.nextInt();
+        input.close();
         int sum=0;
         if(n>0){
             for (int i =1;i<=n;i++){
