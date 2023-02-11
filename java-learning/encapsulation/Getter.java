@@ -1,3 +1,4 @@
+package encapsulation;
 
 class Person{
     private int age = 27;

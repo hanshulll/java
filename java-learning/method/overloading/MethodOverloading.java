@@ -1,14 +1,5 @@
-class Sum{
-    public int add(int i,int j){
-        return i+j;
-    }
-    public int add(int i ,int j,int k){
-        return i+j+k;
-    }
-    public double add(double x, double y){
-        return x+y;
-    }
-}
+package method.overloading;
+
 public class MethodOverloading {
     public static void main(String[] args){
         Sum s = new Sum();
@@ -17,3 +8,4 @@ public class MethodOverloading {
         System.out.println(s.add(13.4,44.2));
     }
 }
+
